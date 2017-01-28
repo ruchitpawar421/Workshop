@@ -1,0 +1,29 @@
+<story path="sample.story" title="Feature: Perform arithematic operations using 2 numbers">
+<scenario keyword="Scenario:" title="Adding 2 numbers">
+<step outcome="successful">Given The values of first and second numbers are <parameter>3</parameter> and <parameter>5</parameter> respectively</step>
+<step outcome="successful">When Adding first and second numbers</step>
+<step outcome="successful">Then Sum of <parameter>2</parameter> numbers is greater then <parameter>0</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="Multiplying 2 numbers">
+<step outcome="successful">Given The values of first and second numbers are <parameter>3</parameter> and <parameter>5</parameter> respectively</step>
+<step outcome="successful">When Multiplying first and second numbers</step>
+<step outcome="failed" keyword="FAILED">Then Product of <parameter>2</parameter> numbers is greater then <parameter>10</parameter><failure>java.lang.AssertionError: 
+Expecting:
+ &lt;2&gt;
+to be greater than:
+ &lt;10&gt; </failure></step>
+<failure>java.lang.AssertionError: 
+Expecting:
+ &lt;2&gt;
+to be greater than:
+ &lt;10&gt; 
+	at com.qait.training.ExampleProject.JbehaveAssertJTest.thenProduct(JbehaveAssertJTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:595)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:566)
+...</failure>
+</scenario>
+</story>

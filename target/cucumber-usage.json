@@ -1,0 +1,78 @@
+[
+  {
+    "source": "Adding first and second numbers",
+    "steps": [
+      {
+        "name": "Adding first and second numbers",
+        "aggregatedDurations": {
+          "average": 0.000051556,
+          "median": 0.000051556
+        },
+        "durations": [
+          {
+            "duration": 0.000051556,
+            "location": "src/main/resources/sample.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Multiplying first and second numbers",
+    "steps": [
+      {
+        "name": "Multiplying first and second numbers",
+        "aggregatedDurations": {
+          "average": 0.000048,
+          "median": 0.000048
+        },
+        "durations": [
+          {
+            "duration": 0.000048,
+            "location": "src/main/resources/sample.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Sum of (\\d+) numbers is greater then (\\d+)$",
+    "steps": [
+      {
+        "name": "Sum of 2 numbers is greater then 0",
+        "aggregatedDurations": {
+          "average": 0.003260889,
+          "median": 0.003260889
+        },
+        "durations": [
+          {
+            "duration": 0.003260889,
+            "location": "src/main/resources/sample.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^The values of first and second numbers are (\\d+) and (\\d+) respectively$",
+    "steps": [
+      {
+        "name": "The values of first and second numbers are 3 and 5 respectively",
+        "aggregatedDurations": {
+          "average": 0.193065556,
+          "median": 0.193065556
+        },
+        "durations": [
+          {
+            "duration": 0.385585778,
+            "location": "src/main/resources/sample.feature:4"
+          },
+          {
+            "duration": 0.000545334,
+            "location": "src/main/resources/sample.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]
